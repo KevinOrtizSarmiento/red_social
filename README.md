@@ -5,8 +5,8 @@ Este proyecto fue contruido con [React Js](https://github.com/facebook/react)
 ## Demo
 
 Puedes probar esta aplicacion aqui\
---> [Academica Red Social](https://red-social-mision-tic.herokuapp.com) <--
-Este es mi primer proyecto personal.\
+--> [Academica Red Social](https://red-social-mision-tic.herokuapp.com) <--\
+Este es mi primer proyecto personal.
 
 este proyecto fue desarrollado con:
 
