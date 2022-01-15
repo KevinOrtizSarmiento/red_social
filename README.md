@@ -8,7 +8,7 @@ Puedes probar esta aplicacion aqui\
 --> [Academica Red Social](https://red-social-mision-tic.herokuapp.com) <--\
 Este es mi primer proyecto personal
 
-Tecnologias Principales:
+Tecnologias principales:
 
 ### `React js`
 
