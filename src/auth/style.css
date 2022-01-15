@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Lobster&family=Poppins&display=swap');
+.form-login{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    width: 50%;
+    padding: 2rem;
+    background-color: #ffff;
+    border-radius: 20px;
+    font-family: 'Bakbak One', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Poppins', sans-serif;
+    margin: 8rem auto 0;
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    .form-login{
+        width: 100%;
+        margin: 4rem auto 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    .form-login{
+        width: 100%;
+        margin: 4rem auto 0;
+    }
+}

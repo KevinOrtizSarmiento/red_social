@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Lobster&family=Poppins:ital,wght@0,400;0,900;1,500&display=swap");
+#nef {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  background-color: #fff;
+   color: black;
+   z-index: 5;
+   position: static;
+   display:flex;
+}
+#academica {
+  font-size: 2rem;
+  font-family: "Bakbak One", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  
+}
+#navKevin{
+  display:flex;
+  margin-left: 50rem;
+  
+}
+.buton{
+  background-color: transparent;
+  border-radius: 40px;
+  width: 10%;
+  height: 10%;
+  margin-top: 10px;
+  border: none;
+  
+}
+.buton:hover{
+  border: none;
+}
+.i{
+  color: #fff;
+}
+.i-NavBar{
+  margin-left: -10px;
+  color:#000;
+}
+.follow-page{
+  min-height: 500px;
+  margin: 3rem auto 0;
+}
+.list-follow{
+  width: 70%;
+  margin:1rem auto 0.5rem;
+}
+.list-follow-skeleton{
+    width: 70%;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 15%;
+    height: 4rem;
+}
+#msg-follow{
+  text-align: center;
+}
+.msg-follow-page{
+  margin: 4rem 3rem 0;
+}
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .list-follow{
+    width: 100%;
+    margin:1rem auto 0.5rem;
+  }
+  .msg-follow-page{
+    margin: 4rem 2rem 0;
+  }
+  .list-follow-skeleton{
+      width: 100%;
+      border-radius: 5px;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      margin-left: 0%;
+      height: 4rem;
+  }
+  #navKevin{
+    margin-left: 0;
+  }
+  #academica{
+    margin-left: -0.3rem;
+    font-size: 1.5rem;
+  }
+  .amigos{
+    font-size: 1rem;
+    margin-left: -1.4rem;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .list-follow{
+    width: 100%;
+    margin:1rem auto 0.5rem;
+  }
+  .msg-follow-page{
+    margin: 4rem 2rem 0;
+  }
+  .list-follow-skeleton{
+      width: 100%;
+      border-radius: 5px;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      height: 4rem;
+      margin-left: 0%;
+  }
+  #navKevin{
+    margin-left: 0;
+  }
+  #academica{
+    margin-left: -0.3rem;
+    font-size: 1.5rem;
+  }
+  .amigos{
+    font-size: 1rem;
+    margin-left: -1.4rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .list-follow{
+    width: 100%;
+    margin:1rem auto 0.5rem;
+  }
+  .msg-follow-page{
+    margin: 4rem 2rem 0;
+  }
+  .list-follow-skeleton{
+      width: 100%;
+      border-radius: 5px;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      height: 4rem;
+      margin-left: 0%;
+  }
+  #navKevin{
+    margin-left: 0;
+  }
+  #academica{
+    margin-left: -0.3rem;
+    font-size: 1.5rem;
+  }
+  .amigos{
+    font-size: 1rem;
+    margin-left: -1.4rem;
+  }
+}

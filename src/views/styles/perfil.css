@@ -1,0 +1,40 @@
+.info {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  display: block;
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 20px;
+  margin-top: 1rem;
+}
+.b {
+  width: 100%;
+  margin-top: 1rem;
+}
+.informacion {
+  margin-bottom: 1rem;
+  color: black;
+  border-bottom: 1px solid gray;
+}
+.info-width {
+  width: 40%;
+}
+.favorite-link{
+  color: black;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .info-width {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .info-width {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .info-width {
+    width: 100%;
+  }
+}

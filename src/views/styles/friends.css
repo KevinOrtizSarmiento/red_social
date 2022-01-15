@@ -1,0 +1,80 @@
+#serach{
+    width: 25%;
+    margin: 2rem 0 3rem;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+}
+#serach:focus{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.list{
+    display: flex;
+    text-decoration: none;
+    font-size: 1.3rem;
+    width: 97%;
+    color: black;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.list:hover{
+    text-decoration: none;
+    color: #000;
+}
+.skeleton-list{
+    display: block;
+    margin: 0 1rem 0;
+    border-radius: 10px;
+    width: 97%;
+    height: 4rem;
+    
+}
+.friends{
+     min-height:500px;
+     margin: auto;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    #serach{
+        width: 85%;
+    }
+    .list{
+        margin: 1rem auto 1rem;
+        width: 100%;
+        font-size: 1rem;
+    }
+    .skeleton-list{
+        margin: 1rem auto 0;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    #serach{
+        width: 85%;
+    }
+    .list{
+        margin: 1rem auto 1rem;
+        width: 100%;
+        font-size: 1rem;
+    }
+    .skeleton-list{
+        margin: 1rem auto 0;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 400px) {
+    #serach{
+        width: 85%;
+    }
+    .list{
+        margin: 1rem auto 1rem;
+        width: 100%;
+        font-size: 1rem;
+    }
+    .skeleton-list{
+        margin: 1rem auto 0;
+        width: 100%;
+    }
+}

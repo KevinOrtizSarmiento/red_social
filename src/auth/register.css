@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Lobster&family=Poppins&display=swap");
+.form-register {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  width: 70%;
+  padding: 3rem;
+  display: flex;
+  padding-top: 3rem;
+  background-color: #ffff;
+  border-radius: 20px;
+  font-family: "Bakbak One", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto 0;
+}
+.uno{
+    background-color: #e9ecef;
+}
+.dos{
+    background-color: aliceblue;
+}
+.registersuccess{
+    width: 70%;
+    margin: 6rem auto 1rem;
+    border-radius: 20px;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+.b{
+    width: 91%;
+}
+.o {
+  width: 21rem;
+  display: inline-block;
+  margin: 0rem 2rem 0.5rem;
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    .form-register {
+        width: 100%;
+        padding: 1rem;
+        margin: 0rem auto 0;
+        padding-top: 0.5rem;
+    }
+    .registersuccess{
+        margin: 0.5rem auto 1rem;
+        width: 100%;
+    }
+    .o{
+        width: 100%;
+        margin: 0.5rem auto 0.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .form-register {
+        width: 100%;
+        padding: 1rem;
+        margin: 0rem auto 0;
+        padding-top: 0.5rem;
+    }
+    .registersuccess{
+        margin: 0.5rem auto 1rem;
+        width: 100%;
+    }
+    .o{
+        width: 90%;
+        margin: 0.5rem auto 0.5rem;
+    }
+}

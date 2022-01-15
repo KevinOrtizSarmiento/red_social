@@ -1,0 +1,267 @@
+@import url(https://fonts.googleapis.com/css2?family=Bakbak+One&family=Lobster&family=Poppins&display=swap);
+.app{
+    font-family: Bakbak One, cursive;
+  font-family: Lobster, cursive;
+  font-family: Poppins, sans-serif;
+  background-color: #fafbfd;
+  margin: auto;
+  max-width: 100%;
+}
+.corazon{
+  color: red;
+  transition: 0.5s;
+}
+.corazon:hover{
+  color: #FF6961;
+  transition: 0.5s;
+}
+.corazonoff{
+  color: red;
+  transition: 0.5s;
+}
+.corazonoff:hover{
+  color: #FF6961;
+  transition: 0.5s;
+}
+.nota{
+  display: block;
+  width: 50%;
+  margin: 2rem auto 0;
+  min-height: 580px;
+}
+#floatingTextarea2{
+  width: 40rem;
+  border-bottom: 1px solid gray;
+  border-radius: 5px;
+  
+}
+.chat{
+  width:100%
+}
+.reaction-btn{
+  background-color: transparent;
+  border: none;
+  font-size: 1.3rem;
+}
+.boton{
+  width: 10rem;
+  float: right;
+  margin-right: 16rem;
+}
+
+.nota-content{
+  margin: 6rem 0 0 ;
+  padding-top: 2rem;
+  border-top: 1px solid gray;
+}
+.note{
+  width: 70%;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  background-color: #fff;
+  margin: 2rem auto 2rem;
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+}
+.note-cont{
+  display:block;
+  width: 100%;
+  
+}
+.area-nota{
+  margin: 0 auto 0;
+  width: 90%;
+}
+.text-principal{
+  margin: 0 3rem 0;
+  max-width: 45%;
+}
+.borrar{
+  border-top: 1px solid black;
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+.ocultar{
+  background-color: transparent;
+  border: none;
+  float: right;
+}
+.name{
+  margin-bottom: 2rem;
+}
+.menu-puntos{
+   float: right; 
+   height: 2.5rem;
+   display: flex;
+   margin: -1rem auto 0rem;
+}
+.nota-me-p{
+  display: flex;
+}
+.i-nota {
+  font-size: 1.3rem;
+  margin: -0.3rem 0.8rem 0;
+}
+.name-me{
+  width: 100%;
+  margin-left: 3rem;
+  display: block;
+}
+.limit-nota{
+  margin-left: 3rem;
+}
+.save{
+  background-color: rgb(229 231 235);
+  padding: 5px;
+  border-radius: 20px;
+  position: absolute;
+  text-align: center;
+  margin-top: 1rem;
+  right: 45rem;
+  width: 15rem;
+}
+.nota-min{
+  min-height: 125px !important;
+}
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .save{
+    right: 0;
+    margin: 2.8rem 6rem 0;
+    padding: 3px;
+  }
+  #name-me-name{
+    font-size:1.1rem;
+  }
+  .limit-nota{
+    margin-left: 0rem;
+  }
+  .name-me{
+    margin-left: 0;
+  }
+  .boton{
+    margin: 0;
+    width:100%;
+  }
+ .nota-content{
+   padding: 0;
+   padding-top: 1rem;
+ }
+ .menu-puntos{
+  height: 5rem;
+   margin-top: -1rem;
+   margin-left: -2.5rem;
+ }
+ .note{
+   width: 100%;
+ }
+ .text-principal{
+   max-width: 100%;
+   margin: 0 0.5rem 0;
+ }
+ .nota{
+   padding: 0;
+   margin: 2rem 1rem 0;
+   width: 90%;
+ }
+ #floatingTextarea2{
+   width: 100%;
+ }
+ .area-nota{
+  width: 100%;
+  
+}
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .save{
+    right: 0;
+    margin: 2.8rem 6rem 0;
+    padding: 3px;
+  }
+  #name-me-name{
+    font-size:1.1rem;
+  }
+  .limit-nota{
+    margin-left: 0rem;
+  }
+  .name-me{
+    margin-left: 0;
+  }
+  .boton{
+    margin: 0;
+    width:100%;
+  }
+  .menu-puntos{
+    height: 5rem;
+    margin-top: -1rem;
+    margin-left: -1rem;
+  }
+  .nota-content{
+    padding: 0;
+    padding-top: 1rem;
+  }  
+  .text-principal{
+    max-width: 100%;
+    margin: 0 0.5rem 0;
+  }
+  .note{
+    width: 100%;
+  }
+  .nota{
+    padding: 0;
+    width: 90%;
+    margin:2rem  1rem 0;
+  }
+  #floatingTextarea2{
+    width: 100%;
+  }
+  .area-nota{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .save{
+    right: 0;
+    margin: 2.8rem 6rem 0;
+    padding: 3px;
+  }
+  #name-me-name{
+    font-size:1.1rem;
+  }
+  .limit-nota{
+    margin-left: 0rem;
+  }
+  .name-me{
+    margin-left: 0;
+  }
+  .boton{
+    margin: 0;
+    width:100%;
+  }
+  .area-nota{
+    width: 100%;
+  }
+  .menu-puntos{
+    height: 3rem;
+    margin-top: -1rem;
+    margin-left: -1rem;
+  }
+  .text-principal{
+    margin: 0 0.5rem 0;
+    max-width: 100%;
+  }
+  .nota-content{
+    padding: 0;
+    padding-top: 1rem;
+  }
+  .note{
+    width: 100%;
+  }
+  .nota{
+    width: 90%;
+    padding: 0;
+    margin:2rem  1rem 0;
+  }
+  #floatingTextarea2{
+    width: 100%;
+  }
+}

@@ -1,0 +1,85 @@
+.edit-principal {
+  min-height: 500px;
+}
+.edit {
+  width: 45%;
+  display: block;
+  margin: 6rem auto 0;
+}
+.edit-input {
+  height: 3rem;
+  margin: 0.5rem 0.5rem 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.edit-input:focus {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.edit-input-flex {
+  display: flex;
+}
+#description {
+  height: 150px;
+  width: 97%;
+  margin: 0.5rem auto 0.5rem;
+}
+.select-div {
+  display: block;
+}
+.btn-edit {
+  width: 50%;
+  height: 3rem;
+  margin: 0.8rem 0.8rem 0;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.select{
+    padding: 0.5rem !important;
+    margin: 0.5rem 0.5rem 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.select:focus{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.res{
+  margin: 0 2rem 1rem;
+  font-size: 1.3rem;
+}
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    .btn-edit{
+        margin: 0.8rem 0.1rem 0;
+        font-size: 0.9rem;
+    }
+    .edit-input{
+        height: 2.5rem;
+        font-size: 0.9rem;
+    }
+    .edit{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    .btn-edit{
+        margin: 0.8rem 0.1rem 0;
+        font-size: 0.9rem;
+    }
+    .edit-input{
+        height: 2.5rem;
+        font-size: 0.9rem;
+    }
+    .edit{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .btn-edit{
+        margin: 0.8rem 0.1rem 0;
+        font-size: 0.9rem;
+    }
+    .edit-input{
+        height: 2.5rem;
+        font-size: 0.9rem;
+    }
+    .edit{
+        width: 100%;
+    }
+}

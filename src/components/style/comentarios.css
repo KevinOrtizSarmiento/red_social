@@ -1,0 +1,106 @@
+.caja-comentarios{
+    margin-top: 2rem;
+}
+#coment-text{
+    width: 70%;
+    border-radius: 10px;
+    margin: 0 0 1rem;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+}
+.coment-and-name{
+    display: block;
+    margin-left: -0.9rem;
+}
+.comentario-perfil-info{
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+.username-and-i{
+    display: flex;
+}
+.profile-coment{
+    margin-right: 0.4rem;
+}
+#coment-text:focus{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.comentario-perfil{
+    display: flex;
+    width: 100%;
+}
+#comentario-publicado{
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 0.8rem;
+    color: black;
+}
+.comentario-perfil-photo{
+    width: 45px;
+    margin: 0 1rem 0;
+    border-radius: 40px;
+    height: 45px;
+}
+.seccion-comentarios{
+    display: block;
+}
+.comentarios-perfil-photo{
+    width: 45px;
+    margin: 0rem 3rem 0;
+    border-radius: 40px;
+    height: 45px;
+}
+.comentario-input{
+    display:block;
+    width: 100%;
+}
+.input-send{
+    display: flex;
+}
+#send-loading{
+    margin: 1rem 0.5rem 0;
+}
+#send{
+    margin: -0.8rem 0.6rem 0;
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px){
+    #send{
+        margin: -0.8rem 0rem 0;
+    }
+    .info-coment{
+        margin-left: 1rem;
+    }
+    .comentario-perfil-photo{
+        margin:  0 0.3rem 0;
+    }
+    .comentarios-perfil-photo{
+        margin: 0rem 1.5rem 0;
+    }
+    .comentario-perfil{
+        margin-left: -1rem;
+    }
+    #coment-text{
+        width: 210px;
+    }
+}
+@media screen and (max-width: 400px) {
+    #send{
+        margin: -0.8rem 0rem 0;
+    }
+    .comentario-perfil{
+        margin-left: -1rem;
+    }
+    .info-coment{
+        margin-left: 1rem;
+    }
+    .comentario-perfil-photo{
+        margin:  0 0.3rem 0;
+    }
+    .comentarios-perfil-photo{
+        margin: 0rem 1.5rem 0;
+    }
+    #coment-text{
+        width: 210px;
+    }
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Lobster&family=Poppins&display=swap');
+.footer {
+  display: flex;
+  font-family: 'Bakbak One', cursive;
+  font-family: 'Lobster', cursive;
+  font-family: 'Poppins', sans-serif;
+  background-color: #212529;
+  margin: 14rem auto 0;
+  color: aliceblue;
+}
+.footer-content{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin: 0 8.5rem 0;
+}
+
+.i{
+  margin-right: 0.5rem;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .footer{
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 5rem;
+  }
+  .footer-content{
+    padding: 0;
+    margin: 2rem 1rem 0;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .footer{
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 5rem;
+  }
+  .footer-content{
+    padding: 0;
+    margin: 2rem 1rem 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer{
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 5rem;
+  }
+  .footer-content{
+    padding: 0;
+    margin: 2rem 1rem 0;
+  }
+}
