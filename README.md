@@ -1,14 +1,14 @@
 # ACADEMICA - Red Social
 
-Este proyecto fue contruido con [React Js](https://github.com/facebook/react).
+Este proyecto fue contruido con [React Js](https://github.com/facebook/react)
 
 ## Demo
 
-Puedes probar esta aplicacion aqui.
+Puedes probar esta aplicacion aqui\
 --> [Academica Red Social](https://red-social-mision-tic.herokuapp.com) <--
 
-Este es mi primer proyecto personal.\
-Este proyecto fue desarrollado con:
+Este es mi primer proyecto personal,\
+este proyecto fue desarrollado con:
 
 ### `React js`
 
